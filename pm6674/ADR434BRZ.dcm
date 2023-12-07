@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADR434BRZ
+D V-Ref Precision 4.096V 30mA 8-Pin SOIC
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-4/DSA-69584.pdf
+$ENDCMP
+#
+#End Doc Library

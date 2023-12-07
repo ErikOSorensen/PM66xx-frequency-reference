@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ADR434BRZ
+#/166006/298938/2.50/8/3/Integrated Circuit
+DEF ADR434BRZ IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ADR434BRZ" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-4/DSA-69584.pdf" 950 0 50 H I L CNN
+F4 "V-Ref Precision 4.096V 30mA 8-Pin SOIC" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "584-ADR434BRZ" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADR434BRZ?qs=WIvQP4zGanjX%2FJpuDd%2F1xw%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Analog Devices" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ADR434BRZ" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X TP_1 1 0 0 200 R 50 50 0 0 P
+X VIN 2 0 -100 200 R 50 50 0 0 P
+X NIC 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X TP_2 8 1100 0 200 L 50 50 0 0 P
+X COMP 7 1100 -100 200 L 50 50 0 0 P
+X VOUT 6 1100 -200 200 L 50 50 0 0 P
+X TRIM 5 1100 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
