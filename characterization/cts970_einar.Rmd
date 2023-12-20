@@ -37,7 +37,7 @@ df |> ggplot(aes(x=time, y=current)) +
   theme(plot.title.position = "plot")
 ```
 
-Very slowly, the current draw continued to drop, at 22:20 the current drwan was 236 mA.
+Very slowly, the current draw continued to drop, at 22:20 the current drawn was 236 mA.
 
 # Frequency vs control voltage
 
@@ -59,12 +59,12 @@ df2 |> ggplot(aes(x=V_control, y=f_out)) +
 dlta <- (max(df2$f_out) - min(df2$f_out))/(max(df2$V_control)-min(df2$V_control))
 ```
 
-The frequency was measure by my Agilent 53131A with a GPSDO reference,
-with a 1s gate time. This seems fairly linear, with about
-`r dlta`
-Hz/V. The potentiometer on the board has 4.096 V over 23 turns, so this will
-give about `r dlta * 4.096 /23` Hz/turn which should make it possible to 
-calibrate it fairly precisely.
+The frequency was measured by my Agilent 53131A with a GPSDO reference
+(with a 1s gate time). This seems fairly linear, with about
+`r format(dlta, digits=2)`
+Hz/V. The potentiometer on the board has 4.096V from the voltage reference 
+over 23 turns, so this will give about `r format(dlta * 4.096 /23, digits=2)` 
+Hz/turn which should make it possible to  calibrate it fairly precisely.
 
 
 # Amplitude
