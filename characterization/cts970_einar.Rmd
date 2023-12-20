@@ -66,3 +66,13 @@ Hz/V. The potentiometer on the board has 4.096 V over 23 turns, so this will
 give about `r dlta * 4.096 /23` Hz/turn which should make it possible to 
 calibrate it fairly precisely.
 
+
+# Amplitude
+
+Running freely, without a load, I measured 2.3V peak-to-peak. With the filtration
+and the 50 Ohm on-board load resistor that I have adopted from previous designs I measure
+around 1V peak-to-peak, which is more or less in line with a 50 Ohm internal
+impedance of the oscillator, and a small insertion loss of the low pass filter
+I added.
+
+
