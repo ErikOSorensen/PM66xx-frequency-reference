@@ -28,7 +28,7 @@ ts <- seq(start, by=difftime(second,start),length.out=26)
 df <- tibble(current=is, time=ts)
 ```
 
-```{r}
+```{r echo=FALSE}
 df |> ggplot(aes(x=time, y=current)) +
   geom_line() +
   theme_minimal() +
@@ -45,7 +45,7 @@ If the frequency generated cannot be controlled in a proper window around 10MHz,
 the oscillator might be too old and for use. I measured the frequency
 generated for some control voltages, and this doesn't seem like a problem.
 
-```{r include=FALSE}
+```{r echo=FALSE}
 df2 <- tibble(V_control = c(2.000, 2.100, 2.200, 2.300, 2.400),
               f_out = c(9999999.1, 9999999.490, 9999999.965, 10000000.246, 10000000.621))
 df2 |> ggplot(aes(x=V_control, y=f_out)) +
