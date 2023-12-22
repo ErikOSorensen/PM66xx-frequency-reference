@@ -10,6 +10,7 @@
     (company "Erik Ø. Sørensen, LB3TH")
     (comment 1 "Inspiration (and physical measurements) from The Sync Channel Blog.")
     (comment 2 "https://syncchannel.blogspot.com/2016/04/flukephilips-pm66xx-frequency-counter.html")
+    (comment 3 "https://github.com/ErikOSorensen/PM66xx-frequency-reference")
   )
 
   (lib_symbols
